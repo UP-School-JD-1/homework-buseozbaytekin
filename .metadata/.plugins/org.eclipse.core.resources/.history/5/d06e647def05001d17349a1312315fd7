@@ -1,0 +1,37 @@
+package org.javaturk.oopj.homework;
+
+public class ReadbleIfElse {
+	
+	String cardInfo;
+	String tcCitizen;
+	String formUtils;
+	String registrationForm;
+	int tckn;
+	String verifyOtpWSResponse;
+	int customerNo;
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		
+		
+//		
+//		cardInfo.setIdInfo(cardInfo.getTcCitizen() ? 
+//				(formUtils.isNullEmptyString(verifyOtpWSResponse.getTckn()) ?
+//						registrationForm.getTckn() : verifyOtpWSResponse.getTckn()):
+//							(formUtils.isNullOrEmptyString(verifyOtpWSResponse.getCustno())) ? 
+//									registrationForm.getTckn() : verifyOtpWSResponse.getCustno());
+				
+				
+		
+		
+	}
+
+}

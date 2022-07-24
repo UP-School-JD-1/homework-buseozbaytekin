@@ -1,0 +1,18 @@
+package org.javaturk.oopj.hw.ch02;
+
+import org.javaturk.oopj.ch02.Selam;
+
+public class HelloTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Hello nesne = new Hello();
+		
+		String answer = nesne.sayHi("Mehmet");
+		System.out.println(answer);
+		
+		answer = nesne.sayHi("");
+		System.out.println(answer);
+	}
+
+}

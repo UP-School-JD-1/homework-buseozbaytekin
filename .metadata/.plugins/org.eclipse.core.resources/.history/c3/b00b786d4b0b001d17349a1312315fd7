@@ -1,0 +1,28 @@
+package HomeworksChapter5.Shapes;
+
+public class Triangle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		drawTriangle(10);
+	}
+	
+	public static void drawTriangle(int height) {
+		
+		for(int row = 0; row < height; row++) {
+			for(int k = 0; k < (height - row); k++) {
+				System.out.println(" ");
+			}
+			for(int j = 0; j < 2* row + 1; j++) {
+				System.out.println("*");
+			}
+			for(int k = 0; k < (height - row); k++) {
+				System.out.println(" ");
+			}
+			System.out.println();
+		}
+		
+		
+	}
+
+}

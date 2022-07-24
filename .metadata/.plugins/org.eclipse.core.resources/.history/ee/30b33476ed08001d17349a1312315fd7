@@ -1,0 +1,31 @@
+package SwitchDemo;
+
+public class SwitchDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+		
+String monthsInSeasons = args[0];
+		
+		final String s = "december"; // Constant exp.
+		
+		switch(monthsInSeasons){
+			case "december":	System.out.println();
+			case "january":		System.out.println();
+			case "february":	System.out.println("Winter");break;
+			case "march":		System.out.println();
+			case "april":		System.out.println();
+			case "may":			System.out.println("Sipring");break;
+			case "june":		System.out.println();
+			case "july":		System.out.println();
+			case "august":		System.out.println("Summer");break;
+			case "september":	System.out.println();
+			case "october":		System.out.println();
+			case "november":	System.out.println("Autum");break;
+		}
+		
+	}
+
+}
