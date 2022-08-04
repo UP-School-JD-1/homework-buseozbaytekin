@@ -59,6 +59,27 @@
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
 	</section>
 	<section name="GitCommitSearchPage">
-		<item key="HISTORY_SIZE" value="0"/>
+		<item key="HISTORY_SIZE" value="1"/>
+		<section name="HISTORY0">
+			<section name="searchSection">
+				<item key="ignoreCase" value="true"/>
+				<item key="regexSearch" value="false"/>
+				<item key="textPattern" value="terminal"/>
+				<item key="matchAuthor" value="true"/>
+				<item key="matchCommit" value="true"/>
+				<item key="matchCommitter" value="true"/>
+				<item key="matchMessage" value="true"/>
+				<item key="matchParents" value="true"/>
+				<item key="matchTree" value="true"/>
+				<item key="allBranches" value="false"/>
+				<item key="repository0" value="/Users/buseozbaytekin/git/javaCampWorks/.git"/>
+				<item key="repository1" value="/Users/buseozbaytekin/git/repository/.git"/>
+				<item key="repository2" value="/Users/buseozbaytekin/git/repository2/.git"/>
+				<item key="repository3" value="/Users/buseozbaytekin/git/repository3/.git"/>
+				<item key="repository4" value="/Users/buseozbaytekin/git/repository4/.git"/>
+				<item key="repository5" value="/Users/buseozbaytekin/git/repository5/.git"/>
+				<item key="repositoryCount" value="6"/>
+			</section>
+		</section>
 	</section>
 </section>
