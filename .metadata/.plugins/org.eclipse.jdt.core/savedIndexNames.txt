@@ -1,5 +1,0 @@
-INDEX VERSION 1.131+/Users/buseozbaytekin/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
-1865797976.index
-3015861681.index
-1038007964.index
-2167183244.index

@@ -11,8 +11,10 @@ public class Rectangle {
 //		r.drawVoidRectangle(10, 5);
 		r.drawTriangle(10, 0);
 		
+		System.out.println();
 		
 	}
+	
 	
 	public void drawFilledFakeRectangle() {
 		System.out.println("******");
