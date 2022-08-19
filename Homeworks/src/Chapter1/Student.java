@@ -3,13 +3,12 @@ package Chapter1;
 import java.util.Date;
 
 public class Student {
-	
+
 	int no;
 	String name;
 	int year;
 	Date dob;
 	String major;
-	
 
 	public Student(int no, String name, int year, Date dob, String major) {
 		super();
@@ -19,8 +18,6 @@ public class Student {
 		this.dob = dob;
 		this.major = major;
 	}
-	
-	
 
 	public int getNo() {
 		return no;
@@ -61,25 +58,19 @@ public class Student {
 	public void setMajor(String major) {
 		this.major = major;
 	}
-	
-	
-	
 
 	public void study() {
 		System.out.println("Student is studying.");
 	}
-	
-	
+
 	public void register() {
 		System.out.println("Student is registered.");
 	}
-	
+
 	@Override
 	public String toString() {
-	
+
 		return "Student [no= " + no + ", name= " + name + ", year= " + year + ", major= " + major + "]";
 	}
-	
-	
 
 }
