@@ -1,6 +1,7 @@
 package Chapter3.Commerce;
 
 import Chapter3.Commerce.Product.Product.ClothProduct;
+import Chapter3.Commerce.Product.Product.ConsultancyProduct;
 import Chapter3.Commerce.Product.Product.Gift;
 import Chapter3.Commerce.Product.Product.SecondHand;
 
@@ -29,6 +30,12 @@ public class Test {
 		gift.getDepot();
 		gift.getPlace();
 		gift.giveAGift(cloth);
+		
+		System.out.println();
+
+		ConsultancyProduct consultancy = new ConsultancyProduct("Development consultancy","c38a", 3880, 221);
+		consultancy.purchase();
+		consultancy.consultancy();
 		
 		
 	}
