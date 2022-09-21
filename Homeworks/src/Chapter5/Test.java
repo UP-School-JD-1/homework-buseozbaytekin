@@ -34,7 +34,7 @@ public class Test {
 		try {
 			System.out.println("Maaşı: " + d1.calculateSalary());
 		} catch (SalaryPaidOnBankException e) {
-			
+
 			e.getMessage();
 			processSalaryPaidOnBankException(e);
 		}

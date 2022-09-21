@@ -16,15 +16,9 @@ public class Employee {
 
 	}
 
-
-
 	public void work() {
 		System.out.println("Employee is working!");
 	}
-
-//	public void work(int hour){
-//		System.out.println("Employee is working for " + hour + " hours!");
-//	}
 
 	public double calculateSalary() throws SalaryPaidOnBankException {
 		if ((year * BASE_SALARY) > 7000) {
