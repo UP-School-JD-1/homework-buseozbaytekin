@@ -19,11 +19,12 @@ public class TestOperator {
 		System.out.println(book1);
 		System.out.println(book2);
 
-		Comparator<Book> comparator1 = (o1, o2) -> o1.getPages() > o2.getPages() ? 1 : -1;
+		Comparator<Book> comparator1 = (o1, o2) -> o1.getPages() - o2.getPages();
 
 		BinaryOperator<Book> maxLengthPage = BinaryOperator.maxBy(comparator1);
 		Book maxPageBook = maxLengthPage.apply(book1, book2);
 		Book maxPageBook1 = maxLengthPage.apply(book3, book4);
+		Book maxPageBook2 = maxLengthPage.apply(book5, book6);
 
 		System.out.println("Longest book is " + maxPageBook);
 		System.out.println("Longest book is " + maxPageBook1);
