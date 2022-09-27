@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Objects;
 import java.util.TreeSet;
 
-
 public class Person implements Comparable<Person> {
 	private String firstName;
 	private String lastName;
@@ -55,24 +54,28 @@ public class Person implements Comparable<Person> {
 
 	@Override
 	public String toString() {
-		return "Person: " + firstName + " " + lastName + " " + numbers + " "+ adresses;
+		return "Person: " + firstName + " " + lastName + " " + numbers + " " + adresses;
 	}
 
 	@Override
 	public int compareTo(Person o) {
-		
-		return this.getLastName().compareTo(o.getLastName()) ;
+		Person other = (Person) o;
+		if (lastName.compareTo(other.lastName) == 0)
+			return firstName.compareTo(other.firstName);
+
+		else
+			return lastName.compareTo(other.lastName);
 	}
-	
-	public static void searchPerson(Object o, TreeSet<Person> people) {  
+
+	public static void searchPerson(Object o, TreeSet<Person> people) {
 		Iterator iterator = people.iterator();
-        while(iterator.hasNext()) {
-        	Person person = (Person) iterator.next();
-            if(person.getFirstName() == o || person.getLastName() == o || person.getNumbers().contains(o) || person.getAdresses().contains(o))    
-            	System.out.println("Searching.. " + person.toString());
-        }   
-  
-    }
-	
+		while (iterator.hasNext()) {
+			Person person = (Person) iterator.next();
+			if (person.getFirstName() == o || person.getLastName() == o || person.getNumbers().contains(o)
+					|| person.getAdresses().contains(o))
+				System.out.println("Searching.. " + person.toString());
+		}
+
+	}
 
 }

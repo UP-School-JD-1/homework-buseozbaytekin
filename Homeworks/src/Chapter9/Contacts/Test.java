@@ -17,13 +17,13 @@ public class Test {
 		Person doga = new Person("Doga", "Kayhan", new ArrayList<>(Arrays.asList("1144441", "2554322")),
 				new ArrayList<>(Arrays.asList("Indiana, USA", "Indiana, USA")));
 
-		Person lara = new Person("Lara", "Isik", new ArrayList<>(Arrays.asList("77555", "8364839")),
+		Person lara = new Person("Lara", "Isiklar", new ArrayList<>(Arrays.asList("77555", "8364839")),
 				new ArrayList<>(Arrays.asList("Izmir, Turkey", "Izmir, Turkey")));
 
 		Person mert = new Person("Mert", "Isiklar", new ArrayList<>(Arrays.asList("77555", "8364839")),
 				new ArrayList<>(Arrays.asList("Izmir, Turkey", "Izmir, Turkey")));
 
-		Person bade = new Person("Bade", "Birce", new ArrayList<>(Arrays.asList("467397", "46386")),
+		Person bade = new Person("Bade", "Bilce", new ArrayList<>(Arrays.asList("467397", "46386")),
 				new ArrayList<>(Arrays.asList("Izmir, Turkey", "Izmir, Turkey")));
 
 		Person eva = new Person("Eva", "Santos", new ArrayList<>(Arrays.asList("546280", "263447")),
